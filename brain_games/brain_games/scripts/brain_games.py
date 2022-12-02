@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-def greeting():
+def main():
     print("Welcome to the Brain Games!")
 
 
 if __name__ == '__main__':
-    greeting()
+    main()
