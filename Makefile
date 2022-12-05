@@ -12,3 +12,6 @@ publish:
 
 package-install:
 	python3 -m pip install --force-reinstall dist/brain_code-0.1.0-py3-none-any.whl
+
+lint:
+	poetry run flake8 brain_games
