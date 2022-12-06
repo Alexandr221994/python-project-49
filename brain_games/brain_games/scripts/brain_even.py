@@ -19,21 +19,21 @@ def parity_check():
         random_number = randint(0, 100)
         print(f'Question: {random_number}')
         answer = prompt.string('Your answer: ')
-        if (random_number % 2 == 0 and answer == 'yes') or (random_number % 2 != 0 and answer == 'no'):
+        if (random_number % 2 == 0 and answer == 'yes') \
+                or (random_number % 2 != 0 and answer == 'no'):
             print('Correct!')
+        elif answer == 'yes':
+            print('Answer "yes" if the number is even, otherwise answer "no".')
+            print(f"Let's try again, {name}!")
+            break
+        elif answer == 'no':
+            print('Answer "no" if the number is even, otherwise answer "yes".')
+            print(f"Let's try again, {name}!")
+            break
         else:
-            if answer == 'yes':
-                print('Answer "yes" if the number is even, otherwise answer "no".')
-                print(f"Let's try again, {name}!")
-                break
-            elif answer == 'no':
-                print('Answer "no" if the number is even, otherwise answer "yes".')
-                print(f"Let's try again, {name}!")
-                break
-            else:
-                print('Incorrect answer')
-                print(f"Let's try again, {name}!")
-                break
+            print('Incorrect answer')
+            print(f"Let's try again, {name}!")
+            break
     if count == 3:
         print(f'Congratulations, {name}!')
 
