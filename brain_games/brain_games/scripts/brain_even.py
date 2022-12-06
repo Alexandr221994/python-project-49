@@ -15,13 +15,13 @@ def parity_check():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     count = 0
     while count < 3:
-        count += 1
         random_number = randint(0, 100)
         print(f'Question: {random_number}')
         answer = prompt.string('Your answer: ')
         if (random_number % 2 == 0 and answer == 'yes') \
                 or (random_number % 2 != 0 and answer == 'no'):
             print('Correct!')
+            count += 1
         elif answer == 'yes':
             print('Answer "yes" if the number is even, otherwise answer "no".')
             print(f"Let's try again, {name}!")
