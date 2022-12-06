@@ -4,4 +4,6 @@
 ### run brain-even  
 [![asciicast](https://asciinema.org/a/TirAzWJ1ibbMw5nMPvWr8E7PE.svg)](https://asciinema.org/a/TirAzWJ1ibbMw5nMPvWr8E7PE)  
 ### run brain-calc  
-[![asciicast](https://asciinema.org/a/J1G7JDNLRSGHYJPjqDezlCyBc.svg)](https://asciinema.org/a/J1G7JDNLRSGHYJPjqDezlCyBc)
+[![asciicast](https://asciinema.org/a/J1G7JDNLRSGHYJPjqDezlCyBc.svg)](https://asciinema.org/a/J1G7JDNLRSGHYJPjqDezlCyBc)  
+### run brain-gcd  
+[![asciicast](https://asciinema.org/a/J57rO9RTeV3N0GtNdqEeAtYnl.svg)](https://asciinema.org/a/J57rO9RTeV3N0GtNdqEeAtYnl)
