@@ -29,7 +29,7 @@ def progression():
 
         for index, item in enumerate(result_list):
             if index == random_index:
-                result_string += f'.. '
+                result_string += '.. '
             else:
                 result_string += f'{item} '
 
@@ -41,7 +41,8 @@ def progression():
             print('Correct!')
             count_true_answer += 1
         else:
-            print(f"'{answer}' is wrong answer;(. Correct answer was '{result_list[random_index]}'.")
+            print(f"'{answer}' is wrong answer;(. "
+                  f"Correct answer was '{result_list[random_index]}'.")
             print(f"Let's try again, {name}!")
             break
 

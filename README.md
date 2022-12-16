@@ -8,4 +8,6 @@
 ### run brain-gcd  
 [![asciicast](https://asciinema.org/a/J57rO9RTeV3N0GtNdqEeAtYnl.svg)](https://asciinema.org/a/J57rO9RTeV3N0GtNdqEeAtYnl)  
 ### run brain-progression  
-[![asciicast](https://asciinema.org/a/xCREowyAlngjl0r3SWXVPz3qa.svg)](https://asciinema.org/a/xCREowyAlngjl0r3SWXVPz3qa)
+[![asciicast](https://asciinema.org/a/xCREowyAlngjl0r3SWXVPz3qa.svg)](https://asciinema.org/a/xCREowyAlngjl0r3SWXVPz3qa)  
+### run brain-prime  
+[![asciicast](https://asciinema.org/a/u0ogz7KkSJ2u1s2dZHSDCTjEv.svg)](https://asciinema.org/a/u0ogz7KkSJ2u1s2dZHSDCTjEv)

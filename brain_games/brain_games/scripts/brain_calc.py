@@ -33,7 +33,8 @@ def calc():
             print('Correct!')
             count += 1
         else:
-            print(f"'{answer}' is wrong answer;(. Correct answer was '{result_operation}'.")
+            print(f"'{answer}' is wrong answer;(. "
+                  f"Correct answer was '{result_operation}'.")
             print(f"Let's try again, {name}!")
             break
     if count == 3:

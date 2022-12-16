@@ -24,7 +24,8 @@ def search_gcd():
             print('Correct!')
             count += 1
         else:
-            print(f"'{answer}' is wrong answer;(. Correct answer was '{least_common_divisor}'.")
+            print(f"'{answer}' is wrong answer;(. "
+                  f"Correct answer was '{least_common_divisor}'.")
             print(f"Let's try again, {name}!")
             break
     if count == 3:
