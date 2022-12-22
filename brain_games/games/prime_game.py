@@ -8,13 +8,13 @@ def search_prime_number(number: int):
     for item in range(1, number + 1):
         if number % item == 0:
             count += 1
-    if count != 2:
-        return 'no'
-    else:
-        return 'yes'
+    return count == 2
 
 
 def game():
     question = randint(1, 101)
-    correct_answer = search_prime_number(question)
+    if search_prime_number(question):
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
     return question, str(correct_answer)

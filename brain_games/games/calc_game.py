@@ -6,7 +6,7 @@ MAX_NUMBER = 99
 OUTPUT_TASK = 'What is the result of the expression?'
 
 
-def calculation(operator: str, first_number: int, second_number: int):
+def calculate(operator: str, first_number: int, second_number: int):
     if operator == '+':
         return first_number + second_number
     if operator == '-':
@@ -20,5 +20,5 @@ def game():
     second_number: int = randint(MIN_NUMBER, MAX_NUMBER)
     operator = choice(MATH_OPERATORS)
     question: str = f'{first_number} {operator} {second_number}'
-    correct_answer: str = calculation(operator, first_number, second_number)
+    correct_answer: int | str = calculate(operator, first_number, second_number)
     return question, str(correct_answer)

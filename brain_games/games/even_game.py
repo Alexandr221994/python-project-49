@@ -3,14 +3,14 @@ from random import randint
 OUTPUT_TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def is_even(hidden_number: int):
-    if hidden_number % 2 == 0:
-        return 'yes'
-    else:
-        return 'no'
+def is_even(number: int):
+    return number % 2 == 0
 
 
 def game():
     question: int = randint(0, 100)
-    correct_answer: str = is_even(question)
+    if is_even(question):
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
     return question, str(correct_answer)
