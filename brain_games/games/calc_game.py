@@ -15,7 +15,7 @@ def calculate(operator: str, first_number: int, second_number: int):
         return first_number * second_number
 
 
-def game():
+def get_game():
     first_number: int = randint(MIN_NUMBER, MAX_NUMBER)
     second_number: int = randint(MIN_NUMBER, MAX_NUMBER)
     operator = choice(MATH_OPERATORS)

@@ -7,7 +7,7 @@ def run_game(game):
     print(game.OUTPUT_TASK)
     count_true_answer = 0
     while count_true_answer < 3:
-        question, correct_answer = game.game()
+        question, correct_answer = game.get_game()
         print(f'Question: {question}')
         player_answer = prompt.string('Your answer: ')
         if player_answer != correct_answer:

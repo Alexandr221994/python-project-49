@@ -7,7 +7,7 @@ def is_even(number: int):
     return number % 2 == 0
 
 
-def game():
+def get_game():
     question: int = randint(0, 100)
     if is_even(question):
         correct_answer = 'yes'

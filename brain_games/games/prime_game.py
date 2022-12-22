@@ -11,7 +11,7 @@ def search_prime_number(number: int):
     return count == 2
 
 
-def game():
+def get_game():
     question = randint(1, 101)
     if search_prime_number(question):
         correct_answer = 'yes'
